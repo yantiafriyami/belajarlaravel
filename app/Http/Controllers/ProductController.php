@@ -8,7 +8,7 @@ use App\Models\Product;
 class ProductController extends Controller
 {
     public function listProducts(){
-    	$products = Product::all(); // select * from products
+    	$products = Product::all();
     	return view('products')->with('data', $products);
     }
 }

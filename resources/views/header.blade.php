@@ -50,7 +50,7 @@
 				<!--start: Logo -->
 				<div class="logo span3">
 						
-					<a class="brand" href="#"><img src="logo.PNG" alt="Logo"></a>
+					<a class="brand" href="#"><img src="mart.PNG" alt="Logo"></a>
 						
 				</div>
 				<!--end: Logo -->
@@ -67,10 +67,10 @@
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li class="active"><a href="index.php">Home</a></li>
-			              			<li><a href="produk.php">Category</a></li>
-									<li><a href="testimoni.php">Shopping Cart List</a></li>
-                                    <li><a href="carts.php">My Ordered Items</a></li>
+			              			<li class="active"><a href="list_products">Home</a></li>
+			              			<li><a href="details_products">Menu</a></li>
+									<li><a href="testimoni.php">Menu</a></li>
+                                    <li><a href="carts.php">Menu</a></li>
 			              			<li class="dropdown">
 			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
 			                			<ul class="dropdown-menu">

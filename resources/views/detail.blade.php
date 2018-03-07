@@ -4,7 +4,7 @@
 				
 		<!--start: Container -->
     	<div class="container">              
-<div class="title"><h3>Keranjang Anda</h3></div>
+<div class="title"><h3>Description Product</h3></div>
             <div class="hero-unit">
             <!--<div class="tittle"><h3><strong><span class="glyphicon glyphicon-shopping-cart"></span> Your Cart</strong></h3></div>-->
                     <table class="table table-hover table-condensed">
@@ -27,7 +27,7 @@
                         </tr>
                         <tr>
                         <td></td>
-                        <td size="200"><h3>Harga</h3></td>
+                        <td size="200"><h3>Price</h3></td>
                         <td><h3>:</h3></td>
 						<td><div><h3>Rp.</h3></div></td>
                         </tr>
@@ -45,7 +45,7 @@
                         </tr>
                         <tr>
                         <td></td>
-                        <td><h3>Keterangan</h3></td>
+                        <td><h3>Description</h3></td>
                         <td><h3>:</h3></td>
                         <td><div><h3></h3></div></td>
                         </tr>
@@ -84,26 +84,6 @@
     	<div class="container">	
       		
 			<hr>
-		
-			<!-- start Clients List -->	
-			<div class="clients-carousel">
-		
-				<ul class="slides clients">
-					<li><img src="img/logos/1.png" alt=""/></li>
-					<li><img src="img/logos/2.png" alt=""/></li>	
-					<li><img src="img/logos/3.png" alt=""/></li>
-					<li><img src="img/logos/4.png" alt=""/></li>
-					<li><img src="img/logos/5.png" alt=""/></li>
-					<li><img src="img/logos/6.png" alt=""/></li>
-					<li><img src="img/logos/7.png" alt=""/></li>
-					<li><img src="img/logos/8.png" alt=""/></li>
-					<li><img src="img/logos/9.png" alt=""/></li>
-					<li><img src="img/logos/10.png" alt=""/></li>		
-				</ul>
-		
-			</div>
-			<!-- end Clients List -->
-		
 			<hr>
 		
 		</div>
