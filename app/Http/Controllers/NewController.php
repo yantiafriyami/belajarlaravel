@@ -64,6 +64,10 @@ class NewController extends Controller
     	$deleteproduct->delete();
     	return redirect ('list_products');
     }
+    public function listProducts(){
+    	$products = Product::all();
+    	return view('products')->with('data', $products);
+    }
 }
 
 

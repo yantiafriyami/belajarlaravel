@@ -1,61 +1,129 @@
+<!DOCTYPE html>
+<html>
 <head>
+  <title>Koperasi Sekolah</title>
+    <style>
+    body *{
+    padding: 0; margin: 0;
+}
+h2{
+  color:#50626C;
+  text-align: center;
+  font-family: arial;
+  text-transform: uppercase;
+  border: 3px solid #f1f1f1;
+  padding: 5px;
+  width: 490px;
+  margin: auto;
+  margin-bottom: 10px;
+    margin-top: 20px;
+}
+form {
+    border: 3px solid #f1f1f1;
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+}
 
-    <title>Admin Koperasi Sekolah</title>
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+  color:#50626C;
+  text-transform: uppercase;
+}
+button {
+    background-color: #3CB371;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-     <script src="/js/jquery-1.9.1.js"></script>
-    <script src="/js/bootstrap.js"></script>
+button:hover {
+    opacity: 0.8;
+}
 
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f03434;
+}
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="/js/ie-emulation-modes-warning.js"></script>
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+span{
+  color:#50626C;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+    </style>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="http://getbootstrap.com/docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
 
-  <body background="image/banner-bg.jpg">
+  <h2>Login Form </h2>
 
-    <div class="container">
-<!-- role="form" -->
-      <form class="form-signin" method="post" action="proseslogin.php">
-        <h2 class="form-signin-heading"><center><span class="glyphicon glyphicon-th-large"></span> Welcome Admin</center></h2>
-        <h5 class="baru">Admin Koperasi Sekolah</h5>
-        <tr><input name="user" id="user" type="input" class="form-control" placeholder="Username" required></tr>
-        <tr><input name="pass" id="pass" type="password" class="form-control" placeholder="Password" required></tr>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-        <button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
-      </form>
+<form action="" method="">
+  <div class="imgcontainer">
+    <img src="login.png" alt="Avatar" class="avatar">
+  </div>
 
-    </div> <!-- /container -->
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
 
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Masuk</button>
+    <input type="checkbox" checked="checked"><span>Ingat Saya</span>
+  </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    
-  </body>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Lupa <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
 </html>

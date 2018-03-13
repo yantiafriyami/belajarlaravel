@@ -67,12 +67,12 @@
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li class="active"><a href="list_products">Home</a></li>
+			              			<li class="active"><a href="list_products">Product</a></li>
+			              			<li><a href="new_products">Create Product</a></li>s
 			              			<li><a href="details_products">Menu</a></li>
-									<li><a href="testimoni.php">Menu</a></li>
                                     <li><a href="carts.php">Menu</a></li>
 			              			<li class="dropdown">
-			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+			                			<a href="login" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
 			                			<ul class="dropdown-menu">
 			                  				<li><a href="index.html">Admin</a></li>
 			                  				<li><a href="index.php">Konsumen</a></li>

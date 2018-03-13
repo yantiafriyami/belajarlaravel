@@ -1,3 +1,4 @@
+@include ('header') 
 <!--start: Wrapper-->
 	<div id="wrapper">
 	<!-- start: Container -->
@@ -23,7 +24,7 @@
                 <td><center></center></td>
                 <td><center></center></td>
                 <td><center></center></td>
-                <td><center><a href="cart.php?act=plus&amp;barang_id=<?php echo $key; ?>&amp;ref=detail.php" class="btn btn-xs btn-success">Tambah</a> <a href="cart.php?act=min&amp;barang_id=<?php echo $key; ?>&amp;ref=detail.php" class="btn btn-xs btn-warning">Kurang</a> <a href="cart.php?act=del&amp;barang_id=<?php echo $key; ?>&amp;ref=detail.php" class="btn btn-xs btn-danger">Hapus</a></center></td>
+                <td><center><a href="" class="btn btn-xs btn-success">Tambah</a> <a href="" class="btn btn-xs btn-warning">Kurang</a> <a href="" class="btn btn-xs btn-danger">Hapus</a></center></td>
                 </tr>
                 
 
